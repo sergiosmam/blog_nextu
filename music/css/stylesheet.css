@@ -1,0 +1,149 @@
+.music-body {
+    background-color: #7b262c;
+    margin: 0 50px 0 50px;
+}
+
+header {
+  background: #FFFFFF;
+  ma-height: 250px;
+  border-radius: 0px !important;
+  margin-bottom: 0px;
+}
+
+.social-icons {
+    margin: 0 15px 15px 0;
+    float: right;
+}
+
+.nav {
+    width: 100%;
+    background-color: #ffad69;
+    border: none;
+    margin: 0;
+    text-align: center;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav ul li {
+    padding: 18px 25px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav ul li a, .nav ul li a:hover {
+    text-decoration: none;
+    color: #7b262c;
+}
+
+.container-white {
+    margin-top: 20px;
+    background-color: #FFFFFF;
+}
+
+.blog-post {
+    padding: 30px;
+}
+
+.blog-post h2 {
+    font-size: 30px;
+}
+
+.blog-post p {
+    font-size: 16px;    
+}
+
+.blog-post i {
+    font-size: 35px;    
+}
+
+/* enable absolute positioning */
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+.blog-rightside {
+    padding: 30px;
+}
+
+/*************************************************************************************************************/
+
+/*
+.cinema-body {
+  background: #D0D0D0;
+}
+
+
+.navbar-inverse {
+  background: #082D5E;
+  min-height: 10%;
+  border: none;
+}
+
+
+
+
+.jumbotron {
+  background: #00678E;
+  min-height: 500px;
+  border-radius: 0px !important;
+  margin-bottom: 0px;
+}
+
+
+.titulo-cartelera {
+  min-height: 45px;
+  background: #082D5E;
+}
+
+
+.movies-row {
+  background: #00678E;
+  min-height: 350px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+.movies-column {
+  margin-top: 5px;
+  background: #00678E;
+  min-height: 330px;
+  border: 1px dashed #FFFFFF;
+}
+
+
+.left-column {
+  border-right: 1px dashed #FFFFFF;
+}
+*/
+
+@media (max-width: 770px) {
+
+    .container-fluid {
+        margin: 0 5px 0 5px;
+    }
+    
+    .social-icons {
+        margin: 0 15px 15px 0;
+        float: none;
+        text-align: center;
+    }    
+}
