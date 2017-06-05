@@ -1,10 +1,10 @@
 .music-body {
-    background-color: #7b262c;
+    background-color: #f2f2f2;
     margin: 0 50px 0 50px;
 }
 
 header {
-  background: #FFFFFF;
+  background: #282828;
   ma-height: 250px;
   border-radius: 0px !important;
   margin-bottom: 0px;
@@ -15,9 +15,13 @@ header {
     float: right;
 }
 
+.social-icons img {
+    max-width: 50px;
+}
+
 .nav {
     width: 100%;
-    background-color: #ffad69;
+    background-color: #c85951;
     border: none;
     margin: 0;
     text-align: center;
@@ -35,7 +39,7 @@ header {
 
 .nav ul li a, .nav ul li a:hover {
     text-decoration: none;
-    color: #7b262c;
+    color: #FFFFFF;
 }
 
 .container-white {
@@ -57,6 +61,11 @@ header {
 
 .blog-post i {
     font-size: 35px;    
+}
+
+.blog-post-comment {
+    margin-top: 20px;
+    padding-top: 20px;
 }
 
 /* enable absolute positioning */
