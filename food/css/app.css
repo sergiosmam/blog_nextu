@@ -1,6 +1,24 @@
 .food-body {
-    background-color: #f2f2f2;
-    margin: 0 50px 0 50px;
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    width: 100% !important;
+    z-index: 0;
+}
+
+.container {
+    padding: 0 20px 0 30px;
+    background:rgba(255,255,255,0.6);
+}
+
+h2, h3, p {
+    color: #FFF;
+}
+
+small {
+    color: #b1b1b1;
 }
 
 h2 {
@@ -9,14 +27,67 @@ h2 {
     text-align: right;
 }
 
-.side-menu {
-    padding: 10px;
-    background-color: ;
+.button.background-red {
+    background-color: #971a23;
+    border-radius: 3px;
 }
 
+.side-menu {
+    padding: 10px;
+    background-color: #282828;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.menu {
+    margin-bottom: 20px;
+}
+
+.menu li {
+    border: 1px solid #FFF;
+    margin-bottom: 2px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #971a23;
+    color: #FFF;
+}
+
+.menu li a {
+    color: #FFF;
+}
+
+.form-search {
+    margin-bottom: 10px;
+}
+
+.favorites {
+    margin-bottom: 20px;
+}
+
+.favorites h3 {
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.favorites img {
+    border: 2px solid #FFF;
+    border-radius: 2px;
+    margin-bottom: 5px;
+}
+
+.histories ul {
+    list-style: none;
+}
+
+.histories ul li a {
+    font-size: 16px;
+    color: #FFF;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
 .side-content {
     padding: 10px;
-    background-color: #FFF;
+    background-color: #282828;
     border-radius: 10px;
     margin-bottom: 20px;
 }
@@ -26,13 +97,40 @@ h2 {
 }
 
 .blog-post h3 {
-    width: 100%;
     font-size: 35px;
 }
 
 .blog-post small {
-    width: 100%;
+    display: inline;
     font-size: 20px;
+}
+
+.blog-post img {
+    display: block;
+    font-size: 20px;
+}
+
+.blog-comment label {
+    color: #FFF;
+    font-size: 16px;
+}
+
+.blog-comment a {
+    float: right;
+}
+
+.blog-comments {
+    display: inline-block;
+}
+
+.blog-comments .comment {
+    margin-bottom: 8px;
+}
+
+img.img-circle {
+    width: 50px;
+    border-radius: 25px;
+    border: 2px solid #FFF;
 }
 
 @media (max-width: 770px) {
