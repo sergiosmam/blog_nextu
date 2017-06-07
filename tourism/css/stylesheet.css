@@ -1,0 +1,9 @@
+.tourism-body {
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    width: 100% !important;
+    z-index: 0;
+}
